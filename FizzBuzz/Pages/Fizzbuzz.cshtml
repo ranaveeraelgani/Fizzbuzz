@@ -1,0 +1,39 @@
+﻿@page
+@model FizzBuzz.Pages.FizzbuzzModel
+@{
+    ViewData["Title"] = "Fizzbuzz page";
+}
+
+
+<body>
+    <form class="text-center" method="post">
+        <div>
+            <div>
+                <div>
+                    <div> <label>Enter value here:</label></div>
+                </div>
+                <div>
+                    <input type="text" asp-for="fbvalues" placeholder="Fizzbuzz Values" required="" />
+                </div>
+                <div>
+                    <br />
+                    <button type="submit">Submit</button>
+                </div>
+                <div>
+                    <br />
+                    <h5>Output: </h5>                    
+                </div>
+                @if (Model.result_list != null)
+                {
+                    @foreach (var item in Model.result_list)
+                    {                        
+                        <div>
+                            <div><label id="results" style="text-align:left">@item  </label></div>
+                        </div>
+                    }
+                }
+
+            </div>
+        </div>
+    </form>
+</body>

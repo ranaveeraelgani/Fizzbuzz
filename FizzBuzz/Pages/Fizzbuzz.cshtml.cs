@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FizzBuzz.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -34,7 +33,7 @@ namespace FizzBuzz.Pages
                     }
                 }
             }
-
+            
             return Page();
         }
 

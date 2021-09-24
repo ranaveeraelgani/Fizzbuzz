@@ -19,16 +19,17 @@
                     <br />
                     <button type="submit">Submit</button>
                 </div>
-                <div>
-                    <br />
-                    <h5>Output: </h5>                    
-                </div>
                 @if (Model.result_list != null)
                 {
+                    <div>
+                        <br />
+                        <h5 hidden="hidden" id="lbl_OT"> Output: </h5>
+                        <div><label id="results" style="font-weight:bold">Output: </label></div>
+                    </div>
                     @foreach (var item in Model.result_list)
-                    {                        
+                    {
                         <div>
-                            <div><label id="results" style="text-align:left">@item  </label></div>
+                            <div><label id="results" style="text-align:left">@item </label></div>
                         </div>
                     }
                 }

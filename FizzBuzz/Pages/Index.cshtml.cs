@@ -19,7 +19,7 @@ namespace FizzBuzz.Pages
 
         public void OnGet()
         {
-
+             
         }
     }
 }

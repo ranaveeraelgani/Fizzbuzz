@@ -5,3 +5,7 @@
 /FizzBuzz/bin/Debug/netcoreapp3.1
 /FizzBuzz/obj
 /.vs
+/FizzBuzzTesting/bin
+/FizzBuzzTesting/obj
+/TestResults/54a9cc19-fe4f-4367-a2ac-6bc2fd938754/A568017_2DHWSQ2 2021-09-24 15_37_34.coverage
+/TestResults
